@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Translate</string>
     <string name="txtsong">" Hi this is a test"</string>
+    <string name="btnToasty">"To show"</string>
 </resources>

@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Traductor</string>
     <string name="txtsong">Hola esto es una prueba</string>
+    <string name="btnToasty">Mostrar</string>
 </resources>

@@ -13,6 +13,8 @@ import timber.log.Timber;
 public class MainActivity extends AppCompatActivity {
 
 
+    private String message;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,10 +26,13 @@ public class MainActivity extends AppCompatActivity {
             Timber.plant(new Timber.DebugTree());
         }
 
+
+        message =  getResources().getString(R.string.texto);
+
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toasty.darkToasty(v.getContext(), "Apretaste el boton :D", Toasty.LENGTH_LONG, Toasty.BOTTOM);
+                toasty.darkToasty(v.getContext(), message, Toasty.LENGTH_LONG, Toasty.BOTTOM);
             }
 
         });

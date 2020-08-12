@@ -3,4 +3,5 @@
     <string name="app_name">Translator</string>
     <string name="txtsong">Salut c\'est un test</string>
     <string name="btnToasty">montrer</string>
+    <string name="texto">" Vous avez appuyé sur le bouton"</string>
 </resources>

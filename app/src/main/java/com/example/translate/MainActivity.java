@@ -61,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "onStop", Toast.LENGTH_LONG).show();
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast.makeText(this, "onRestart", Toast.LENGTH_LONG).show();
+    }
 
     @Override
     protected void onDestroy() {
